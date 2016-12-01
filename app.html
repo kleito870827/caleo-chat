@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- npm i -g reload -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css" media="screen" title="no title">
+    <title>chat</title>
+</head>
+
+<body>
+    <div class="conten">
+        <div class="texCont">
+            <h1 id="port"></h1>
+            <div class="tex" id="textSended">
+            </div>
+            <div class="text-send">
+                <input id="tableText" placeholder="...write your text here"></input>
+                <button id='button-send' class='btninp' type="button" name="button">Send</button>
+            </div>
+            <div class="file">
+                <input id='tableFile' class='btninp' type="file" name="name" value="">
+                <input id='logout' class='btninp' type="button" name="name" value="Log Out">
+            </div>
+
+        </div>
+        <hr>
+        <div id="image">
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.4.0/firebase.js"></script>
+    <script src='js/chatApp.js'></script>
+</body>
+
+</html>
